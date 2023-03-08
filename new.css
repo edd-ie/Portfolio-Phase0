@@ -15,7 +15,7 @@ html, body{
 }
 html{
     background: url("./images/text7.jpg");
-    height: 100%;
+    background-position: center;
 }
 
 
@@ -82,7 +82,7 @@ html{
     border-radius: 10px;
     transform: scaleX(0);
     transform-origin: left;
-    background: #6665ee;
+    background: #4c4cd6;
     animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
 }
 
