@@ -2,7 +2,7 @@ body {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     font-size: var(--body-font-size, 14px);
     color:grey;
-    background: url('./images/Stonks.jpeg');
+    background: url('./images/final2.jpeg');
 }
 
 
@@ -11,7 +11,7 @@ div#showcase {
     display: block;
     width: 700;
     height: 500;
-    color: yellow;
+    color: black;
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 15%;
