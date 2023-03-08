@@ -11,6 +11,6 @@ button.addEventListener("mousedown", function(){
 })
 
 h1.addEventListener("mouseover", function(e){
-     h1.style.background = "2px, 2px 2px red";
+     h1.style.background = "2px, 2px 2px yellow";
 })               
 
