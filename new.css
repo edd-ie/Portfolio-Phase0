@@ -6,32 +6,40 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
-html, body{
-    display: grid;
-    height: 100%;
-    place-items: center;
-    
-}
 html{
-    background: url("./images/text7.jpg");
-    background-position: center;
+    background: black;;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
 }
 
+
+
+#matrix {
+    height: 100%;
+}
+
+
+.skill-bar{
+    position: absolute;
+    padding: 30px 30px;
+    width: 600px;
+    background: white;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border-color: black;
+}
 
 ::selection{
     color: #fff;
     background: #6665ee;
-}
-
-.skill-bar{
-    margin-top: 10%;
-    padding: 30px 30px;
-    width: 600px;
-    background: white;
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
-    border-radius: 10px;
-    border-color: black;
 }
 
 
